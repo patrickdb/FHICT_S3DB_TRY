@@ -9,7 +9,8 @@ import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
     @Configuration
-    @EnableSwagger2
+    // @EnableSwagger2 (Since version swagger 3, not needed (also removed dependencies)
+    //    // http://springfox.github.io/springfox/docs/current/#regular-spring-mvc  (migration)
     public class SwaggerConfig {
 
         @Bean
